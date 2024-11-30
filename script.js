@@ -1,4 +1,4 @@
-// script.js
+
 document.getElementById('product-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const productName = document.getElementById('product-name').value.trim();
